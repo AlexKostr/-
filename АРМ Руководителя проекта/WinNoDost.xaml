@@ -1,0 +1,15 @@
+﻿<Window x:Name="NoDustup" x:Class="ASK.WinNoDost"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ASK"
+        mc:Ignorable="d"
+        Title="Ошибка доступа" ResizeMode="NoResize" d:DesignWidth="495" d:DesignHeight="337" Width="495" Height="337" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+    <Grid>
+        <Image Margin="0,0,4,121" Source="Image1.png" Stretch="None" Opacity="0.8"/>
+        <TextBox x:Name="Text_msg" Text="Label" HorizontalAlignment="Center" Margin="0,188,0,31" VerticalAlignment="Center" Width="489" Height="90" FontSize="14"  IsHitTestVisible="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Ок" HorizontalAlignment="Left" Margin="0,278,0,0" VerticalAlignment="Top" Width="489" Click="Button_Click"/>
+    </Grid>
+
+</Window>
